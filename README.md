@@ -1,2 +1,0 @@
-# CreamyLiquor
-# proyecto_II
