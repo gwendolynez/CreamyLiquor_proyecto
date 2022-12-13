@@ -1,0 +1,23 @@
+{
+  "name": "creamyliquor_proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwendolynez/CreamyLiquor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gwendolynez/CreamyLiquor/issues"
+  },
+  "homepage": "https://github.com/gwendolynez/CreamyLiquor#readme",
+  "devDependencies": {
+    "sass": "^1.56.2"
+  }
+}
