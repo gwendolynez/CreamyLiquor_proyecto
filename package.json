@@ -1,14 +1,14 @@
 {
   "name": "creamyliquor_proyecto",
   "version": "1.0.0",
-  "description": "",
+  "description": "Migrando proyecto a sass",
   "main": "index.js",
   "scripts": {
-    "compile": "node-sass sass/main.scss css/main.css-- watch" 
+    "compile": "sass scss/main.scss css/main.css --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gwendolynez/CreamyLiquor_Proyecto.git"
+    "url": "git+https://github.com/gwendolynez/CreamyLiquor.git"
   },
   "author": "",
   "license": "ISC",

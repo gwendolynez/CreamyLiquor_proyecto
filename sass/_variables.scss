@@ -1,0 +1,21 @@
+@import "https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap";
+@keyframes from-right {
+	0% {
+		opacity: 0;
+		transition: translateX(80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(80px);
+	}
+}
+@media screen and (min-width:768px) {
+	#grilla {
+		grid-template-columns: repeat(4,1fr);
+	}
+	.contenedor {
+		width: 80%;
+		color: $color_4;
+		min-height: 400px;
+	}
+}
