@@ -1,3 +1,17 @@
+
+$color_1: #707070;
+$color_2: #ffffff;
+$color_3: #fff;
+$color_4: #a2806a;
+$font-family_1: Raleway, sans-serif;
+$background-color_1: #f8f8f8;
+$background-color_2: #707070;
+$background-color_3: #d3d3d3;
+$background-color_4: #f4f4f4;
+$background-color_5: #444;
+$background-color_6: #5a5a5a;
+$background-color_7: #051b33;
+
 @import "https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap";
 @keyframes from-right {
 	0% {
@@ -12,6 +26,7 @@
 @media screen and (min-width:768px) {
 	#grilla {
 		grid-template-columns: repeat(4,1fr);
+	
 	}
 	.contenedor {
 		width: 80%;
@@ -19,3 +34,4 @@
 		min-height: 400px;
 	}
 }
+
