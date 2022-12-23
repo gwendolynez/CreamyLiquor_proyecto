@@ -250,7 +250,7 @@ main {
 }
 
 footer {
-  width: 1400px;
+  width: 100vw;
   background-color: #051b33;
 }
 footer div {
