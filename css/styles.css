@@ -310,4 +310,30 @@ footer nav a img {
   grid-area: footer;
   height: 100px;
   background: #051b33;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+footer {
+  width: 100%;
+  background-color: #051b33;
+}
+footer div {
+  height: 100px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer div a {
+  text-decoration: none;
+  color: #fff;
+}
+footer div a img {
+  width: 50px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+footer nav a img {
+  width: 20px;
+  margin: 8px;
+}
