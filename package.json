@@ -4,7 +4,8 @@
   "description": "Migrando protecto a SASS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/main.css --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/gwendolynez/creamyliquour/issues"
   },
-  "homepage": "https://github.com/gwendolynez/creamyliquour#readme"
+  "homepage": "https://github.com/gwendolynez/creamyliquour#readme",
+  "devDependencies": {}
 }
