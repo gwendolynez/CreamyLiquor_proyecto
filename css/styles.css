@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');
+
 body {
   font-family: Raleway, sans-serif;
   font-size: 16px;
@@ -70,8 +72,8 @@ main {
   margin: auto;
 }
 #producto img {
-  width: 200px;
-  height: 280px;
+  width: 250px;
+  height: 305px;
 }
 
 .producto h2 {
@@ -81,10 +83,6 @@ main {
 }
 
 #nosotros {
-  height: 500px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 500px;
   display: flex;
   justify-content: space-between;
