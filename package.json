@@ -1,0 +1,19 @@
+{
+  "name": "creamyliquor_proyectooo",
+  "version": "1.0.0",
+  "description": "Migrando protecto a SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwendolynez/creamyliquour.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gwendolynez/creamyliquour/issues"
+  },
+  "homepage": "https://github.com/gwendolynez/creamyliquour#readme"
+}
