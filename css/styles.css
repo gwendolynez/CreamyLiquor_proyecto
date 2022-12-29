@@ -306,7 +306,7 @@ footer nav a img {
   float: right;
     
 }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 760px) {
   
     .left, .main, .right {
       width: 100%; 
