@@ -18,5 +18,7 @@
   "homepage": "https://github.com/gwendolynez/creamyliquour#readme",
   "dependencies": {
     "node-sass": "^8.0.0"
-  }
+  },
+  "devDependencies": {},
+  "keywords": []
 }
