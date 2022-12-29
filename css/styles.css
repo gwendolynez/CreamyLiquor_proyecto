@@ -83,7 +83,7 @@ main {
 }
 
 #nosotros {
-  height: 500px;
+  height: 400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -93,6 +93,7 @@ main {
   width: 100%;
 }
 #nosotros article p {
+  font-size: small;
   margin: 16px 10px;
 }
 #nosotros img {
@@ -112,6 +113,7 @@ main {
   padding-left: 5px;
 }
 #aspectos article h3 {
+  font-size: small;
   margin-bottom: 10px;
   padding-left: 6px;
 }
@@ -283,12 +285,20 @@ footer nav a img {
 }
 #reseña header {
   grid-area: header;
+  width: 100%;
+  margin: 10px;
+  padding: 15px;
+  float: right;
+
+ 
 }
 #reseña header div a {
   color: #ffffff;
   text-decoration: none;
   font-size: 40px;
+  width: 100%;
 }
+
 #reseña header h1 {
   font-size: 30px;
 }
@@ -304,7 +314,7 @@ footer nav a img {
   margin: 10px;
   padding: 15px;
   float: right;
-    
+  font-size: small;  
 }
   @media screen and (max-width: 760px) {
   
@@ -316,8 +326,15 @@ footer nav a img {
   grid-area: footer;
   height: 100px;
   background: #051b33;
+ 
 }
 
+#reseña footer img {
+
+padding: 3px 10px;
+
+
+}
 footer {
   width: 100%;
   background-color: #051b33;
