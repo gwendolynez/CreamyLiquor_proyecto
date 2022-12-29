@@ -1,8 +1,9 @@
-header {
-   background-color: $color-primario;
-    background-color: $color-gradiente;
-    min-height: 250px;
-  
+header{
+    
+background-color: $yellow;
+background-color: $gradiente;
+min-height: 250px;
+    
   header img {
     -webkit-animation: from-top 1.5s ease;
             animation: from-top 1.5s ease;
@@ -11,6 +12,5 @@ header {
   .container-fluid {
     max-height: 500px;
     padding: 10px;
-    $color: #ffffff;
-  }
+    $color: $white  }
 }
