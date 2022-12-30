@@ -96,7 +96,7 @@ main {
   font-size: small;
   margin: 16px 10px;
 }
-#nosotros img {
+#nosotros img{
   width: 240px;
   height: 310px;
   margin-left: 10px;
@@ -360,17 +360,3 @@ footer nav a img {
   width: 20px;
   margin: 8px;
 }
-/*###  Media Queries ###*/ 
-  
-
-@media screen and (min-width:768px) {
-
-  .contenedor{
-     width: 80%;
-     color:#a2806a;
-     min-height: 400px;
-  }
-
-  
-
- }
