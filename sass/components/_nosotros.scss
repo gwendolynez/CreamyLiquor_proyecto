@@ -9,10 +9,10 @@
 
 #nosotros {
 article {
-    width: 100%;
+    width: 80%;
     p {
         font-size: $font-size-p;
-        margin: 15px 5px;
+        margin: 5px 3px;
     }
 }
 img {
@@ -28,13 +28,13 @@ flex-wrap: wrap;
 justify-content: space-between;
 article {
     width: 200px;
-    padding-left: 5px;
     h3 {
-        font-size: 16;
+        font-family: $raleway;
+        font-size: $font-size-h3;
         margin-bottom: 10px;
-        padding-left: 6px;
+       
         img {
-            margin-right: 10px;
+            margin-right: 3px;
             vertical-align: middle;
         }
     }

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -50,71 +51,34 @@ header {
 
 main {
   width: 100%;
-  margin: auto;
   min-height: 600px; }
   main #hero {
-    width: 100%;
+    width: 90%;
     height: 500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center; }
+    text-align: center;
+    margin: 40px; }
   main #hero img {
-    width: 200px;
-    height: 280px; }
+    width: 300px;
+    height: 330px; }
   main #hero h2 {
-    font-size: 18px;
+    font-size: 12px;
     margin-top: 35px; }
   main #producto {
     width: 60%;
-    height: 500px;
-    margin: auto; }
+    height: 400px;
+    margin: auto;
+    align-items: center;
+    vertical-align: middle; }
     main #producto img {
       width: 250px;
       height: 280px; }
   main .producto h2 {
-    margin-top: 44px;
+    margin-top: 40px;
     text-align: center;
     text-justify: center; }
-
-#reseña {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
-  grid-template-columns: 12rem 1fr;
-  grid-template-areas: "header header" "nav main" "nav footer"; }
-  #reseña header {
-    grid-area: header;
-    width: 100%;
-    margin: 10px;
-    padding: 15px;
-    float: right; }
-    #reseña header nav {
-      grid-area: nav;
-      padding: 3rem;
-      height: 700px;
-      line-height: 24px; }
-    #reseña header div a {
-      color: #f8f8f8;
-      text-decoration: none;
-      font-size: 40px;
-      width: 100%; }
-    #reseña header h1 {
-      font-size: 30px; }
-  #reseña main {
-    grid-area: main;
-    width: 60%;
-    margin: 10px;
-    padding: 15px;
-    float: right;
-    font-size: small; }
-  #reseña footer div nav {
-    grid-area: footer;
-    height: 100px;
-    background: #051b33; }
-  #reseña footer img {
-    padding: 3px 10px; }
 
 @media screen and (max-width: 760px) {
   .left {
@@ -206,10 +170,10 @@ main {
   text-align: center; }
 
 #nosotros article {
-  width: 100%; }
+  width: 80%; }
   #nosotros article p {
     font-size: 14px;
-    margin: 15px 5px; }
+    margin: 5px 3px; }
 
 #nosotros img {
   width: 240px;
@@ -222,14 +186,13 @@ main {
   flex-wrap: wrap;
   justify-content: space-between; }
   #aspectos article {
-    width: 200px;
-    padding-left: 5px; }
+    width: 200px; }
     #aspectos article h3 {
-      font-size: 16;
-      margin-bottom: 10px;
-      padding-left: 6px; }
+      font-family: "Raleway", sans-serif;
+      font-size: 16px;
+      margin-bottom: 10px; }
       #aspectos article h3 img {
-        margin-right: 10px;
+        margin-right: 3px;
         vertical-align: middle; }
 
 #comprar {
@@ -274,15 +237,16 @@ main {
     background-color: #f8f8f8; }
 
 footer {
-  width: 100vw;
+  width: 100%;
   background-color: #051b33; }
   footer div {
     height: 100px;
-    width: 1100px;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    font-size: 16px; }
     footer div a {
       text-decoration: none;
       color: #ccc; }
@@ -299,7 +263,7 @@ footer {
   grid-gap: 1rem;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
-  grid-template-columns: 12rem 1fr;
+  grid-template-columns: 18rem 1fr;
   grid-template-areas: "header header" "nav main" "nav footer"; }
   #reseña header {
     grid-area: header;
@@ -327,10 +291,6 @@ footer {
     padding: 60px;
     float: right;
     font-size: small; }
-  #reseña #reseña footer div nav {
-    grid-area: footer;
-    height: 100px;
-    background: #051b33;
-    width: 100%; }
-  #reseña #reseña footer img {
-    padding: 3px 10px; }
+  @media screen and (max-width: 760px) {
+    #reseña .left, #reseña .main, #reseña .right {
+      width: 100%; } }
