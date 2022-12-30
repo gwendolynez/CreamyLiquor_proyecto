@@ -1,0 +1,42 @@
+#nosotros {
+    font-family: $raleway;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#nosotros {
+article {
+    width: 100%;
+    p {
+        font-size: $font-size-p;
+        margin: 15px 5px;
+    }
+}
+img {
+    width: 240px;
+    height: 310px;
+    margin: 8px 5px;
+}
+}
+#aspectos {
+height: 300px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+article {
+    width: 200px;
+    padding-left: 5px;
+    h3 {
+        font-size: 16;
+        margin-bottom: 10px;
+        padding-left: 6px;
+        img {
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    }
+}
+}
